@@ -1,0 +1,119 @@
+figcaption { /*goes underneath the picture*/
+    color: rgb(83, 82, 82);
+    font-family:'Courier New', Courier, monospace;
+    font-size: smaller;
+    text-align: center;
+}
+html {background-color: ivory;} /*for the background colour of the entire page*/
+body {background-color: ivory;/*for body text (the big box in the html)*/
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border:solid rgb(207, 32, 25) 10px}
+    h1 { /* main title*/
+        color:black;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size:xx-large;
+        text-align: center;
+
+    }
+
+    h2 { /*subtitle*/
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: medium;
+        text-align: center;
+    }
+
+    h3 {/* sub-subtitle*/
+        color: black;
+        font-family:'Courier New', Courier, monospace;
+        font-size: large;
+        text-align: center;
+    }
+
+    h4 {color:#555;
+        font-family: 'Courier New', Courier, monospace;
+        font-size:medium;
+        text-align: center;}
+
+    p {/* main body text*/
+        color: rgb(83, 82, 82);
+        font-family:'Courier New', Courier, monospace;
+        font-size: medium;
+        text-align: center;
+        margin: 20px 275px 40px 275px;
+    }
+
+    em {color: rgb(207, 32, 25);} /* for emphasized (AKA italic) words*/
+    u {color: rgb(207, 32, 25);
+        margin-top: 20px;
+        margin-bottom: 20px;} /* for underlined words*/
+
+    a:link { /*link color*/
+        color:rgb(207, 32, 25);
+        background-color: transparent;
+    }
+
+    a:visited {
+        color: rgb(207, 32, 25);
+        background-color: transparent;
+    }
+
+    .ytplayer {position: absolute; /* positions out of the flow, but according to the nearest parent */
+        top: 0; right: 0; /* confuse it i guess */
+        bottom: 0; left: 0;
+        margin: auto; /* make em equal */
+    }
+
+
+    .home {background-color: rgb(207, 32, 25); /*home buttone*/
+            border: solid white;
+            color: white;
+            padding: 12px 16px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-left: 40px;
+            
+            }
+    .btn {background-color: rgb(207, 32, 25);/*return button*/
+        border: solid white;
+        color: white;
+        padding: 12px 16px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-left: 5px;
+        }
+
+        #myBtn { /*jump to top button*/
+            display: none; /* Hidden by default */
+            position: fixed; /* Fixed/sticky position */
+            bottom: 20px; /* Place the button at the bottom of the page */
+            right: 30px; /* Place the button 30px from the right */
+            z-index: 99; /* Make sure it does not overlap */
+            border: solid white; 
+            outline: none; 
+            background-color: rgb(207, 32, 25); /* Set a background color */
+            color: white; /* Text color */
+            cursor: pointer; /* Add a mouse pointer on hover */
+            padding: 15px; /* Some padding */
+            border-radius: 10px; /* Rounded corners */
+            font-size: 18px; /* Increase font size */
+          }
+          
+          #myBtn:hover {
+            background-color: #555; /* Add a dark-grey background on hover */
+          }
+    
+    
+    footer { /*footer*/
+            text-align: center;
+            color: black;
+            padding-bottom: 1px;
+
+    }
